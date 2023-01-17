@@ -1,0 +1,362 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Api/Order.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Core/Bynr.Omni.Concept.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Core/Bynr.Omni.Concept.Core.csproj",
+        "projectName": "Bynr.Omni.Concept.Core",
+        "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Core/Bynr.Omni.Concept.Core.csproj",
+        "packagesPath": "/Users/omer.ozkan/.nuget/packages/",
+        "outputPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omer.ozkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.3.8, )"
+            },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.3.8, )"
+            },
+            "GreenPipes": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.4.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Shared/Bynr.Omni.Concept.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Shared/Bynr.Omni.Concept.Shared.csproj",
+        "projectName": "Bynr.Omni.Concept.Shared",
+        "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Shared/Bynr.Omni.Concept.Shared.csproj",
+        "packagesPath": "/Users/omer.ozkan/.nuget/packages/",
+        "outputPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omer.ozkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Core/Bynr.Omni.Concept.Core.csproj": {
+                "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Core/Bynr.Omni.Concept.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Api/Order.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Api/Order.Api.csproj",
+        "projectName": "Order.Api",
+        "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Api/Order.Api.csproj",
+        "packagesPath": "/Users/omer.ozkan/.nuget/packages/",
+        "outputPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omer.ozkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Services/Order.Services.csproj": {
+                "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Services/Order.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Infrastructure/Order.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Infrastructure/Order.Infrastructure.csproj",
+        "projectName": "Order.Infrastructure",
+        "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Infrastructure/Order.Infrastructure.csproj",
+        "packagesPath": "/Users/omer.ozkan/.nuget/packages/",
+        "outputPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omer.ozkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Core/Bynr.Omni.Concept.Core.csproj": {
+                "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Core/Bynr.Omni.Concept.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Services/Order.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Services/Order.Services.csproj",
+        "projectName": "Order.Services",
+        "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Services/Order.Services.csproj",
+        "packagesPath": "/Users/omer.ozkan/.nuget/packages/",
+        "outputPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omer.ozkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Shared/Bynr.Omni.Concept.Shared.csproj": {
+                "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Bynr.Omni.Concept.Shared/Bynr.Omni.Concept.Shared.csproj"
+              },
+              "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Infrastructure/Order.Infrastructure.csproj": {
+                "projectPath": "/Users/omer.ozkan/Documents/Bynr.Omni.Concept/Order/Order.Infrastructure/Order.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

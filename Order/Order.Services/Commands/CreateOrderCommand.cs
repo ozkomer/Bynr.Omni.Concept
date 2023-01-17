@@ -1,0 +1,61 @@
+﻿using EasyNetQ;
+using MediatR;
+using Order.Infrastructure.DataAccess.EntityFramework;
+using Order.Services.DTO.Request;
+using Order.Services.DTO.Response;
+using Bynr.Omni.Concept.Core.Enums;
+using Bynr.Omni.Concept.Core.Mappings.Abstract;
+using Bynr.Omni.Concept.Shared.MessageBrokers.Consumers.Models.Stock;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Order.Services.Commands
+{
+    public class CreateOrderCommand : IRequest<CreateOrderResponseModel>
+    {
+        public CreateOrderRequestModel CreateOrderRequest { get; set; }
+
+        public CreateOrderCommand(CreateOrderRequestModel createOrderRequest)
+        {
+            CreateOrderRequest = createOrderRequest;
+        }
+    }
+
+    public class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand, CreateOrderResponseModel>
+    {
+        private readonly OrderDbContext _dbContext;
+        private readonly IMapping _mapping;
+        private readonly IBus _bus;
+
+        public CreateOrderCommandHandler(OrderDbContext dbContext,
+            IMapping mapping,
+            IBus bus)
+        {
+            _dbContext = dbContext;
+            _mapping = mapping;
+            _bus = bus;
+        }
+
+        public async Task<CreateOrderResponseModel> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
+        {
+            var order = _mapping.Map<CreateOrderRequestModel, Infrastructure.Entities.Order>(request.CreateOrderRequest);
+            order.OrderStatus = (int)OrderStatus.Pending;
+
+            var response = await _dbContext.AddAsync(order);
+
+            if (await _dbContext.SaveChangesAsync() > 0)
+            {
+                await _bus.PubSub.PublishAsync(new UpdateStockEvent
+                {
+                    CorrelationId = Guid.NewGuid(),
+                    ProductId = order.ProductId,
+                    Quantity = order.Quantity,
+                    OrderId = order.Id
+                });
+            }
+
+            return _mapping.Map<Infrastructure.Entities.Order, CreateOrderResponseModel>(response.Entity);
+        }
+    }
+}

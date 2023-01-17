@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Mappings\Concrete\AutoMapper\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="7.3.8" />
+    <PackageReference Include="Mapster" Version="7.3.0" />
+    <PackageReference Include="MassTransit" Version="8.0.10" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.10" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.4.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="GreenPipes" Version="4.0.1" />
+    <PackageReference Include="EasyNetQ.Serialization.NewtonsoftJson" Version="7.3.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="GreenPipes" />
+    <None Remove="EasyNetQ.Serialization.NewtonsoftJson" />
+  </ItemGroup>
+</Project>

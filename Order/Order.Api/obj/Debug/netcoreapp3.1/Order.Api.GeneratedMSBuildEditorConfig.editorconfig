@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Order.Api
+build_property.ProjectDir = /Users/omer.ozkan/Downloads/Saga.Choreography-main/Order/Order.Api/

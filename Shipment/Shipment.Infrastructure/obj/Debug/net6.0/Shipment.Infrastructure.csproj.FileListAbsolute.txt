@@ -1,0 +1,16 @@
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/bin/Debug/net6.0/Shipment.Infrastructure.deps.json
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/bin/Debug/net6.0/Shipment.Infrastructure.dll
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/bin/Debug/net6.0/Shipment.Infrastructure.pdb
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/bin/Debug/net6.0/Bynr.Omni.Concept.Core.dll
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/bin/Debug/net6.0/Bynr.Omni.Concept.Core.pdb
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/bin/Debug/net6.0/Bynr.Omni.Concept.Core.xml
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/Shipment.Infrastructure.csproj.AssemblyReference.cache
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/Shipment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/Shipment.Infrastructure.AssemblyInfoInputs.cache
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/Shipment.Infrastructure.AssemblyInfo.cs
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/Shipment.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/Shipment.Infrastructure.csproj.CopyComplete
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/Shipment.Infrastructure.dll
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/refint/Shipment.Infrastructure.dll
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/Shipment.Infrastructure.pdb
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Shipment/Shipment.Infrastructure/obj/Debug/net6.0/ref/Shipment.Infrastructure.dll

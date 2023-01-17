@@ -1,0 +1,16 @@
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/bin/Debug/net6.0/Order.Infrastructure.deps.json
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/bin/Debug/net6.0/Order.Infrastructure.dll
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/bin/Debug/net6.0/Order.Infrastructure.pdb
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/bin/Debug/net6.0/Bynr.Omni.Concept.Core.dll
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/bin/Debug/net6.0/Bynr.Omni.Concept.Core.pdb
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/bin/Debug/net6.0/Bynr.Omni.Concept.Core.xml
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/Order.Infrastructure.csproj.AssemblyReference.cache
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/Order.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/Order.Infrastructure.AssemblyInfoInputs.cache
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/Order.Infrastructure.AssemblyInfo.cs
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/Order.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/Order.Infrastructure.csproj.CopyComplete
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/Order.Infrastructure.dll
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/refint/Order.Infrastructure.dll
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/Order.Infrastructure.pdb
+/Users/omer.ozkan/Desktop/Bynr.Omni.Concept.Core/Order/Order.Infrastructure/obj/Debug/net6.0/ref/Order.Infrastructure.dll
